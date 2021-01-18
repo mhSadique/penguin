@@ -1,3 +1,6 @@
+/* body {
+    font-family: 'Bebas Neue', cursive;
+} */
 .penguin-head-bg-color {
     background-color: white !important;
 }
@@ -22,4 +25,7 @@
     background-color: #2A1E59;
     color: white;
     padding: 20px;
+}
+.penguin-header-section, .penguin-second-part-section {
+    height: 500px;
 }
