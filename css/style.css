@@ -1,0 +1,25 @@
+.penguin-head-bg-color {
+    background-color: white !important;
+}
+.penguin-header-center {
+    margin: 0 auto;
+}
+.header-span-one {
+    color: #363958;
+}
+.header-span-two {
+    color: #76C27E;
+}
+.penguin-header {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 80px;
+    font-size: 80px;
+}
+.penguin-header-image {
+    width: 80%
+}
+.penguin-header-button {
+    background-color: #2A1E59;
+    color: white;
+    padding: 20px;
+}
