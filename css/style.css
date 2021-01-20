@@ -29,3 +29,92 @@
 .penguin-header-section, .penguin-second-part-section {
     height: 500px;
 }
+
+.hide-it {
+    display: none;
+}
+.do-not-hide-it {
+    display: block;
+}
+@media (max-width: 576px) {
+    /* .penguin-small-image img{
+        border: 2px solid red;
+        margin: 0 auto !important;
+        width: 50% !important;
+    } */
+    .w-custom {
+        width: 50% !important;
+    }
+    .hide-it {
+        display: block;
+    }
+    .do-not-hide-it {
+        display: none;
+    }
+    .center-it {
+        text-align:center;
+    }
+}
+@media (max-width: 576px) {
+    .penguin-header-heist {
+        height: 300px !important;
+        /* background-color: red !important; */
+    }
+    .penguin-header-button {
+        padding: 10px;
+    }
+    .third-part-header {
+        margin-top: 20px;
+    }
+    .penguin-bag-button {
+        padding: 8px 15px;
+    }
+    .hide-it {
+        display: block;
+    }
+    .do-not-hide-it {
+        display: none;
+    }
+    .center-it {
+        text-align:center;
+    }
+}
+@media (max-width: 768px) {
+    .penguin-header-heist {
+        height: 700px !important;
+    }
+    .penguin-header-button {
+        padding: 10px;
+    }
+    .third-part-header {
+        margin-top: 20px;
+    }
+    .penguin-bag-button {
+        padding: 8px 15px;
+    }
+}
+.penguin-bag-image {
+    background-color: #F1F1F1;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.penguin-bag-border {
+    border: 10px solid white;
+    border-radius: 20px;
+}
+.penguin-bag-text {
+    color: #363958
+}
+.penguin-bag-button {
+    background-color: #2A1E59;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.price-and-button h3 {
+    color: #76C27E;
+    font-size: 45px;
+}
